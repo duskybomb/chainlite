@@ -12,14 +12,13 @@ setup(
     packages=find_packages(),
     install_requires=[
         "tqdm",
-        "langchain==0.1.17",  # newer versions (up to 0.2.23) cause an error when caching is used
-        "langchain-community==0.0.36",
-        "langchain-core==0.1.50",
-        "langchain-text-splitters==0.0.1",
-        "langgraph==0.0.41",
-        "grandalf",  # to visualize LangGraph graphs
-        "langsmith==0.1.53",
-        "litellm==1.49.5",
+        "langchain",  # newer versions (up to 0.2.23) cause an error when caching is used
+        "langchain-community",
+        "langchain-core",
+        "langchain-text-splitters",
+        "langgraph",
+        "langsmith",
+        "litellm",
         "pydantic>=2.5",
         "redis[hiredis]",
     ],
